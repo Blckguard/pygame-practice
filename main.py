@@ -130,7 +130,7 @@ while True:
 
         obstacle_list.clear()
         player_rect.midbottom = (80, 300)
-        player_gravity = 0 
+        player_gravity = 0
 
         screen.blit(player_stand, player_stand_rect)
         screen.blit(game_title, game_title_rect)
